@@ -1,0 +1,1 @@
+This is a project that i made for an organization for managing their member information and manage their loan.The technology stack that i had choosen for this project was VB.Net and MySql for front end and back end and crystal report for reporting.
