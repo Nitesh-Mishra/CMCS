@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CMCS.account_report" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>account_report.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.Cachedaccount_report" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>account_report.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CMCS.CMCS_Account_Report_Form" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAACBAggCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMCS_Account_Report_Form.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Add_Loan_Type" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQGCigIDQAAACgABACAAAAIAABQABAAAAACEA=</HashCode>
+      <FileName>CMCS_Add_Loan_Type.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Add_Member" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAEAAEEaiAJAAoAACgGDACATD/ARABVABAKggAAAI=</HashCode>
+      <FileName>CMCS_Add_Member.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Change_Pwd" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECgBAAABAACEAAACAQAAAAAJAAAAEAAAAAA=</HashCode>
+      <FileName>CMCS_Change_Pwd.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.cmcs_durationwise_report" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAgAAACRAAACAAAABAIAAAAAAAAAAAg=</HashCode>
+      <FileName>CMCS_Durationwise_report.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Final_Amount_Reprt_Form" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACBAAACAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CMCS_Final_Amount_Reprt_Form.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Home" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KBgAABAAECEACgAAAAGAAAASCAAAAAJJBAAAAAgAEEA=</HashCode>
+      <FileName>CMCS_Home.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Loan_Registration" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAQECgAICAAABCgCBACAABgAbABQABAAAAAAEA=</HashCode>
+      <FileName>CMCS_Loan_Registration.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Loan_Transaction" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgBAAAECwAISAAAAikChAiCAAgACABQIBDAAAAAAQ=</HashCode>
+      <FileName>CMCS_Loan_Transaction.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Manage_Member" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAACAgAgCAAAAYAQBAAAAAAAAAAA=</HashCode>
+      <FileName>CMCS_Manage_Member.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Member_Id" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAQAECAAAAAAAACAAAACAAAAIAABCAAAgAAAAAA=</HashCode>
+      <FileName>CMCS_Member_Id.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Member_List_Form" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAAAAAAACBAAACAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CMCS_Member_List_Form.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Member_Update" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAACAQAEaiBIAAoAACgEBACARD2IAABQABAoAAAAAI=</HashCode>
+      <FileName>CMCS_Member_Update.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Reports" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAECgAAAAAAAGAABgCCEAAYAgBAAAAAAAAAAA=</HashCode>
+      <FileName>CMCS_Reports.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Setting" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAAGAAAACCEAAQAgJAAAAAAAAAAA=</HashCode>
+      <FileName>CMCS_Setting.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Three_Month_Defaulters_form" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACBAAACAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CMCS_Three_Month_Defaulters_form.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCS_Two_Month_Defaulters_Form" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACBAAACAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>CMCS_Two_Month_Defaulters_Form.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.CMCSLogin" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQQAESAAAAAAAACAAAACAAQAAgABCAAAAAAAAAA=</HashCode>
+      <FileName>CMCSLogin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.durationwise_report" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAACQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>durationwise_report.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.Cacheddurationwise_report" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>durationwise_report.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CMCS.final_amount_report" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>final_amount_report.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.Cachedfinal_amount_report" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>final_amount_report.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CMCS.member_list" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>member_list.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.Cachedmember_list" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>member_list.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CMCS.reciept" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>reciept.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.Cachedreciept" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>reciept.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CMCS.Reciept_Form" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACBAAACAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Reciept_Form.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.three_month_defaulters" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>three_month_defaulters.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.Cachedthree_month_defaulters" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>three_month_defaulters.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CMCS.two_month_defaulters" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAEAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>two_month_defaulters.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.Cachedtwo_month_defaulters" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>two_month_defaulters.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CMCS.My.MyApplication" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMCS.My.MySettings" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQBABAAIAAABAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="CMCS.db_connection" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>db_connection.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="CMCS.My.MySettingsProperty" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="CMCS.My.Resources.Resources" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC48A0C9-FA0C-41DB-8428-F551241795AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CMCS.My.MyApplication</StartupObject>
+    <RootNamespace>CMCS</RootNamespace>
+    <AssemblyName>CMCS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CMCS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CMCS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>CMCS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>CMCS.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MigraDoc.DocumentObjectModel, Version=1.32.3885.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\PDFsharp-MigraDocFoundation-Assemblies-1_32\GDI+\MigraDoc.DocumentObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.Rendering, Version=1.32.3885.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\PDFsharp-MigraDocFoundation-Assemblies-1_32\GDI+\MigraDoc.Rendering.dll</HintPath>
+    </Reference>
+    <Reference Include="MigraDoc.RtfRendering, Version=1.32.3885.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\PDFsharp-MigraDocFoundation-Assemblies-1_32\GDI+\MigraDoc.RtfRendering.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.32.2608.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\PDFsharp-MigraDocFoundation-Assemblies-1_32\GDI+\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.32.2608.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\PDFsharp-MigraDocFoundation-Assemblies-1_32\GDI+\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="account_report.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>account_report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CMCS_Deactivate_Form.Designer.vb">
+      <DependentUpon>CMCS_Deactivate_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Deactivate_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Durationwise_report.Designer.vb">
+      <DependentUpon>CMCS_Durationwise_report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Durationwise_report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCSLogin.Designer.vb">
+      <DependentUpon>CMCSLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCSLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Account_Report_Form.Designer.vb">
+      <DependentUpon>CMCS_Account_Report_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Account_Report_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Add_Loan_Type.Designer.vb">
+      <DependentUpon>CMCS_Add_Loan_Type.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Add_Loan_Type.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Add_Member.Designer.vb">
+      <DependentUpon>CMCS_Add_Member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Add_Member.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Change_Pwd.Designer.vb">
+      <DependentUpon>CMCS_Change_Pwd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Change_Pwd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Final_Amount_Reprt_Form.Designer.vb">
+      <DependentUpon>CMCS_Final_Amount_Reprt_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Final_Amount_Reprt_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Home.Designer.vb">
+      <DependentUpon>CMCS_Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Loan_Registration.Designer.vb">
+      <DependentUpon>CMCS_Loan_Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Loan_Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Loan_Transaction.Designer.vb">
+      <DependentUpon>CMCS_Loan_Transaction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Loan_Transaction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Manage_Member.Designer.vb">
+      <DependentUpon>CMCS_Manage_Member.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Manage_Member.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Member_Id.Designer.vb">
+      <DependentUpon>CMCS_Member_Id.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Member_Id.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Member_List_Form.Designer.vb">
+      <DependentUpon>CMCS_Member_List_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Member_List_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Member_Update.Designer.vb">
+      <DependentUpon>CMCS_Member_Update.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Member_Update.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Reports.Designer.vb">
+      <DependentUpon>CMCS_Reports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Setting.Designer.vb">
+      <DependentUpon>CMCS_Setting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Setting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Three_Month_Defaulters_form.Designer.vb">
+      <DependentUpon>CMCS_Three_Month_Defaulters_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Three_Month_Defaulters_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMCS_Two_Month_Defaulters_Form.Designer.vb">
+      <DependentUpon>CMCS_Two_Month_Defaulters_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMCS_Two_Month_Defaulters_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="db_connection.vb" />
+    <Compile Include="deactivate_report.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>deactivate_report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="durationwise_report.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>durationwise_report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="final_amount_report.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>final_amount_report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="member_list.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>member_list.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="reciept.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reciept.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reciept_Form.Designer.vb">
+      <DependentUpon>Reciept_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reciept_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="three_month_defaulters.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>three_month_defaulters.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="two_month_defaulters.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>two_month_defaulters.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="account_report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>account_report.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCSLogin.resx">
+      <DependentUpon>CMCSLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Account_Report_Form.resx">
+      <DependentUpon>CMCS_Account_Report_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Add_Loan_Type.resx">
+      <DependentUpon>CMCS_Add_Loan_Type.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Add_Member.resx">
+      <DependentUpon>CMCS_Add_Member.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Change_Pwd.resx">
+      <DependentUpon>CMCS_Change_Pwd.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Deactivate_Form.resx">
+      <DependentUpon>CMCS_Deactivate_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Durationwise_report.resx">
+      <DependentUpon>CMCS_Durationwise_report.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Final_Amount_Reprt_Form.resx">
+      <DependentUpon>CMCS_Final_Amount_Reprt_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Home.resx">
+      <DependentUpon>CMCS_Home.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Loan_Registration.resx">
+      <DependentUpon>CMCS_Loan_Registration.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Loan_Transaction.resx">
+      <DependentUpon>CMCS_Loan_Transaction.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Manage_Member.resx">
+      <DependentUpon>CMCS_Manage_Member.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Member_Id.resx">
+      <DependentUpon>CMCS_Member_Id.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Member_List_Form.resx">
+      <DependentUpon>CMCS_Member_List_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Member_Update.resx">
+      <DependentUpon>CMCS_Member_Update.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Reports.resx">
+      <DependentUpon>CMCS_Reports.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Setting.resx">
+      <DependentUpon>CMCS_Setting.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Three_Month_Defaulters_form.resx">
+      <DependentUpon>CMCS_Three_Month_Defaulters_form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMCS_Two_Month_Defaulters_Form.resx">
+      <DependentUpon>CMCS_Two_Month_Defaulters_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deactivate_report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>deactivate_report.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="durationwise_report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>durationwise_report.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="final_amount_report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>final_amount_report.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="member_list.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>member_list.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reciept.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>reciept.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reciept_Form.resx">
+      <DependentUpon>Reciept_Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="three_month_defaulters.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>three_month_defaulters.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="two_month_defaulters.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>two_month_defaulters.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

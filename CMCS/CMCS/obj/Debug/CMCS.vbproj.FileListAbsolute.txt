@@ -1,0 +1,59 @@
+D:\Projects\collectorate\CMCS\CMCS\bin\Debug\CMCS.exe
+D:\Projects\collectorate\CMCS\CMCS\bin\Debug\CMCS.pdb
+D:\Projects\collectorate\CMCS\CMCS\bin\Debug\CMCS.xml
+D:\Projects\collectorate\CMCS\CMCS\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\collectorate\CMCS\CMCS\obj\Debug\CMCS.CMCSLogin.resources
+D:\Projects\collectorate\CMCS\CMCS\obj\Debug\CMCS.CMCS_Main.resources
+D:\Projects\collectorate\CMCS\CMCS\obj\Debug\CMCS.Form1.resources
+D:\Projects\collectorate\CMCS\CMCS\obj\Debug\CMCS.Resources.resources
+D:\Projects\collectorate\CMCS\CMCS\obj\Debug\CMCS.vbproj.GenerateResource.Cache
+D:\Projects\collectorate\CMCS\CMCS\obj\Debug\CMCS.exe
+D:\Projects\collectorate\CMCS\CMCS\obj\Debug\CMCS.xml
+D:\Projects\collectorate\CMCS\CMCS\obj\Debug\CMCS.pdb
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\bin\Debug\CMCS.exe.config
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.exe
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.xml
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.pdb
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.CMXS_Change_Pwd.resources
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.CMCSLogin.resources
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.CMCS_Add_Member.resources
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.CMCS_Loan_Registration.resources
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.CMCS_Loan_Transaction.resources
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.CMCS_Main.resources
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.CMCS_Manage_Member.resources
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.CMCS_Memberlist_Report.resources
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.Resources.resources
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\obj\Debug\CMCS.vbproj.GenerateResource.Cache
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\bin\Debug\CMCS.exe
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\bin\Debug\CMCS.pdb
+C:\Users\Nitesh\Desktop\CMCS Project\collectorate\CMCS\CMCS\bin\Debug\CMCS.xml
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\bin\Debug\CMCS.exe.config
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.exe
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.xml
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.pdb
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\bin\Debug\CMCS.exe
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\bin\Debug\CMCS.pdb
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\bin\Debug\CMCS.xml
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCSLogin.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Account_Report_Form.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Add_Loan_Type.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Add_Member.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Change_Pwd.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.cmcs_durationwise_report.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Final_Amount_Reprt_Form.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Home.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Loan_Registration.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Loan_Transaction.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Manage_Member.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Member_Id.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Member_List_Form.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Member_Update.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Reports.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Setting.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Three_Month_Defaulters_form.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.CMCS_Two_Month_Defaulters_Form.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.Resources.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.Reciept_Form.resources
+C:\Users\hp\Desktop\cmcszipped\CMCS\CMCS\obj\Debug\CMCS.vbproj.GenerateResource.Cache
